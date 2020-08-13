@@ -22,7 +22,7 @@ function AppSubBar() {
           <Button color="black" className="tools"><h4 className="btn-text">우리의 꿀팁</h4></Button>
         </Toolbar>
       </AppBar>
-      <div>우리와 함께 삶의 질을 높여보세요</div>
+      <div style={{width: 'auto', textAlign: 'center'}}>우리와 함께 삶의 질을 높여보세요</div>
     </div>
   );
 }
