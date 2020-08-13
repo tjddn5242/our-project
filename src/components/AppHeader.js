@@ -17,7 +17,6 @@ function AppHeader() {
     <div className="AppHeader">
       <AppBar position="static" className="mainBar" elevation={0}  style={{backgroundColor: 'white', borderStyle: 'inset', borderTop: '0'}}>
         <Toolbar>
-          {/* 메뉴 햄버거바 className=menuButon */}
           <IconButton
             edge="start"
             className="menuButton"
@@ -26,16 +25,13 @@ function AppHeader() {
           >
             <MenuIcon />
           </IconButton>
-          {/* 타이틀 className=title */}
           <Typography className="title" variant="h6" noWrap>
             우리
           </Typography>
-          {/* 우측 아이콘들 className=section */}
           <div className="section">
             <Button style={{marginRight: '10px'}}>로그인</Button>
             <Button variant="outlined" style={{marginRight: '10px', marginLeft: '10px'}}>SIGN UP</Button>
             <IconButton aria-label="show 4 new mails" color="black" style={{marginRight: '10px', marginLeft: '10px'}}>
-              {/* badgeContent = 알림 수 */}
               <Badge badgeContent={3} color="secondary"> 
                 <MailIcon />
               </Badge>
@@ -49,7 +45,6 @@ function AppHeader() {
     </div>
   );
 }
-
 
 
 export default AppHeader;
