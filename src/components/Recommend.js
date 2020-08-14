@@ -34,7 +34,7 @@ function Recommend() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image=""
+          image="http://i.ytimg.com/vi/QMCIR-e9D5Q/maxresdefault.jpg"
           title=""
         />
         <CardContent>

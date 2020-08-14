@@ -14,7 +14,9 @@ const useStyles = makeStyles((theme) => ({
   Rec: {
     display:'flex',
     justifyContent: 'center',
-    columnGap: '20%',
+    columnGap: '10%',
+    width: '80%',
+    margin: 'auto',
   }
 }));
 
@@ -28,8 +30,11 @@ function Home() {
           <TipRank />
           <UserRank />
       </div>
-
+      <br />
+      <br />
       <div className={classes.Rec}>
+        <Recommend />
+        <Recommend />
         <Recommend />
       </div>
     </div>

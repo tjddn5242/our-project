@@ -12,9 +12,9 @@ function ReviewRank() {
   return (
     <div>
       <h3>실시간 인기 리뷰</h3>
-      <p>1️⃣{first}</p>
-      <p>2️⃣{second}</p>
-      <p>3️⃣{third}</p> 
+      <p><img src={ require('./1등.svg') } /> {first}</p>
+      <p><img src={ require('./2등.svg') } /> {second}</p>
+      <p><img src={ require('./3등.svg') } /> {third}</p> 
     </div>
   );
 }
