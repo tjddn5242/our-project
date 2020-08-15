@@ -174,7 +174,7 @@ function AppHeader() {
           <MenuItem onClick={handleClose} style={{backgroundColor: '#84E0CB', color: 'white'}}>마이페이지</MenuItem>
           </Menu>
           <Typography className={classes.title} variant="h6" noWrap>
-            우리
+            <img src={ require('./logo-us.svg') } />우리
           </Typography>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
